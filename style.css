@@ -14,8 +14,9 @@
         }
 
         .menu-bar {
-            display: none !important;
+            display: flex !important;
         }
+
         body {
     
             background-image: url('background.jfif');
@@ -67,7 +68,6 @@
                 color: black;
                 font-size: 3rem;
                 transform: scale(2.1);
-                
                 padding: 20px;
             } */
 
@@ -361,6 +361,7 @@
                 }
 
                 #menu {
+                    display: flex !important;
                     float: right;
                 }
             }
